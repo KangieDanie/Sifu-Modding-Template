@@ -1,0 +1,33 @@
+{
+	"FileVersion": 3,
+	"Version": 2,
+	"VersionName": "1.0",
+	"FriendlyName": "Text 2 Lip Sync",
+	"Description": "Converting subtitles to lip sync animation",
+	"Category": "Other",
+	"CreatedBy": "YuriNK",
+	"CreatedByURL": "ykasczc@gmail.com",
+	"DocsURL": "https://drive.google.com/open?id=1GKXaddPnaV6IfWcxC2g-ibpJMDdzoqkk",
+	"MarketplaceURL": "com.epicgames.launcher://ue/marketplace/content/5836e4e379884207985a5496789e82e1",
+	"SupportURL": "ykasczc@gmail.com",
+	"CanContainContent": false,
+	"IsBetaVersion": false,
+	"IsExperimentalVersion": false,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "Text2LipSync",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "SCCore",
+			"Enabled": true
+		}
+	]
+}

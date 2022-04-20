@@ -1,0 +1,28 @@
+{
+	"FileVersion": 3,
+	"Version": 51,
+	"VersionName": "1.51",
+	"FriendlyName": "iCUE Game SDK Plugin",
+	"Description": "CORSAIR's official Unreal Engine plugin for developers to use in official partnerships to assist in the integration process",
+	"Category": "Other",
+	"CreatedBy": "Corsair Memory, Inc.",
+	"CreatedByURL": "https://corsair.com/",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "",
+	"EngineVersion": "4.26.0",
+	"CanContainContent": false,
+	"IsBetaVersion": true,
+	"IsExperimentalVersion": false,
+	"Installed": false,
+	"Modules": [
+		{
+			"Name": "CgSDK",
+			"Type": "Runtime",
+			"LoadingPhase": "PreLoadingScreen",
+			"WhitelistPlatforms": [
+				"Win64"
+			]
+		}
+	]
+}
