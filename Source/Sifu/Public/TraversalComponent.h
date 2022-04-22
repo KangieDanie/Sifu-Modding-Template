@@ -21,7 +21,7 @@ UDELEGATE() DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FTraversalComponent_OnSt
 UDELEGATE() DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FTraversalComponent_OnStartBeingUsed, UTraversalComponent*, _traversalComponent);
 UDELEGATE() DECLARE_DYNAMIC_DELEGATE_RetVal(FVector, FTraversalComponentOnGetCinematicEndPoint);
 
-UCLASS(Blueprintable, EditInlineNew)
+UCLASS(Blueprintable, EditInlineNew, ClassGroup = Extra, meta = (BlueprintSpawnableComponent))
 class SIFU_API UTraversalComponent : public UBoxComponent {
     GENERATED_BODY()
 public:

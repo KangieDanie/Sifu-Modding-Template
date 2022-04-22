@@ -7,12 +7,16 @@ public class Sifu : ModuleRules
 	public Sifu(ReadOnlyTargetRules Target) : base(Target)
 	{
 		PCHUsage = PCHUsageMode.UseExplicitOrSharedPCHs;
-	
-		PublicDependencyModuleNames.AddRange(new string[] { "Core", "CoreUObject", "Engine", "InputCore", "Slate", "SlateCore", "UMG", "AIModule",
-          "AnimGraphRuntime",
+
+        PrivateDependencyModuleNames.AddRange(new string[] { "AkAudio" });
+
+        PublicDependencyModuleNames.AddRange(new string[] {
+            "AIModule",
+            "AkAudio",
+            "AnimGraphRuntime",
             "AnimationBudgetAllocator",
             "AnimationCore",
-			 "ApexDestruction",
+            "ApexDestruction",
             "AudioMixer",
             "Chaos",
             "CinematicCamera",
@@ -36,10 +40,12 @@ public class Sifu : ModuleRules
             "SCCore",
             "SCDialogManagerPlugin",
             "SignificanceManager",
-              "Text2LipSync",
-            });
+            "Slate",
+            "SlateCore",
+            "Text2LipSync",
+            "UMG",
+        });
 
-        PrivateDependencyModuleNames.AddRange(new string[] {  });
 
 		// Uncomment if you are using Slate UI
 		// PrivateDependencyModuleNames.AddRange(new string[] {  });

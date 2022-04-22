@@ -7,7 +7,7 @@
 
 class UNavArea;
 
-UCLASS(EditInlineNew)
+UCLASS(EditInlineNew, ClassGroup = Extra, meta = (BlueprintSpawnableComponent))
 class SIFU_API UBoxWithNavComponent : public UBoxComponent {
     GENERATED_BODY()
 public:

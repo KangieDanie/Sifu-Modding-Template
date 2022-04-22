@@ -34,7 +34,7 @@ public:
     UPROPERTY(BlueprintReadOnly, VisibleAnywhere)
     FLipSyncEmotionDataArray m_emotionForTest;
     
-   /* UPROPERTY(BlueprintReadOnly, EditAnywhere)
+  /*  UPROPERTY(BlueprintReadOnly, EditAnywhere)
     UAkAudioEvent* AkEventObj;*/
     
     UPROPERTY(BlueprintReadOnly, EditAnywhere)
